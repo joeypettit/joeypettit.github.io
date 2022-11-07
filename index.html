@@ -17,10 +17,10 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>Joey Pettit</strong><br />
-					Software Developer<br />
-					Cell: 218-205-7465<br />
-					joeywpettit@gmail.com</h1>
+					<h1><strong>Joey Pettit</strong></h1>
+					<h1>Software Developer</h1>
+					<h1>Cell: 218-205-7465</h1>
+					<h1>joeywpettit@gmail.com</h1>
 				</div>
 			</header>
 
@@ -47,9 +47,9 @@
 							<br/>
 							I'm a native of Fergus Falls, MN and I am proud to call the Fargo-Moorhead area home. 
 						</p>
-						<ul class="actions">
+						<!-- <ul class="actions">
 							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
+						</ul> -->
 					</section>
 
 				<!-- Two -->
@@ -57,43 +57,50 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="https://hidden-mesa-49850.herokuapp.com/" target="_blank" class="image fit thumb"><img src="images/thumbs/jqcalc.jpg" alt="" /></a>
+								<h3>Server-Side Calculator</h3>
+								<p>A pocket-style calculator that takes input from the client, runs the calculations on the server before relaying
+									the results back to the client. This was one of my first projects that utilized a backend server. I had some fun
+									with the styling, using vanilla CSS to model the look of a Texas Instruments TI-83 Plus. All functionality and
+									DOM manipulation was implemented with Javascript and jQuery.
+								</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="https://fecha-scheduler.herokuapp.com/#/home" target="_blank" class="image fit thumb"><img src="images/thumbs/fecha.jpg" alt="" /></a>
+								<h3>Fecha - Scheduler</h3>
+								<p>This is a full stack scheduling web application that I created using a React-based front end and a Node/Express
+									backend with a PostgreSQL database. It is designed primarily for instructors teaching individual classes through
+									Zoom or Skype. It's based around a calendar-view scheduling interface, which I built from scratch without the use
+									of a third-party calendar library.
+								</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="images/fulls/03.jpg" target="_blank" class="image fit thumb"><img src="images/thumbs/gallery.jpg" alt="" /></a>
+								<h3>React Image Gallery</h3>
+								<p>This is one of my first projects using React. It's a basic gallery that displays a collection
+									of photos on Instagram/Facebook inspired cards. Users can like photos, display them in a larger modal view,
+									or view a description of each photo by clicking on it. They can also add additional photos from the web
+									with a valid URL. The backend is a Node/Express server with a PostgreSQL database.
+								</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="images/fulls/04.jpg" target="_blank" class="image fit thumb"><img src="images/thumbs/feedback.jpg" alt="" /></a>
+								<h3>Redux Feedback Portal</h3>
+								<p>The focus of this project was to practice using Redux to store data that persisted in state between page views in
+									a single page React application. The user is guided through several pages, which prompt them either input 
+									a numerical rating, or a text comment. The user is then able to review their feedback prior to submitting.
+									The user is then routed back to the starting page to submit additional feedback (if desired).</p>
 							</article>
 						</div>
-						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
+						<ul class="actions centered-btns">
+							<li class="git-hub-btn"><a href="https://github.com/joeypettit" target="_blank" class="button icon brands fa-github">Check Out My GitHub</a></li>
+							<li><a href="https://drive.google.com/file/d/1p4rBcCs3t69sF-1fcejwAHWn_gPbTnyH/view?usp=sharing" target="_blank" class="button icon solid fa-file">View My Resume</a></li>
+							<li><a href="https://linkedin.com/in/joey-pettit" target="_blank" class="button icon brands fa-linkedin">Follow Me On LinkedIn</a></li>
 						</ul>
 					</section>
 
 				<!-- Three -->
-					<section id="three">
+					<!-- <section id="three">
 						<h2>Get In Touch</h2>
 						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 						<div class="row">
@@ -128,7 +135,7 @@
 								</ul>
 							</div>
 						</div>
-					</section>
+					</section> -->
 
 				<!-- Four -->
 				<!--
@@ -454,13 +461,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>						
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://github.com/joeypettit" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="https://linkedin.com/in/joey-pettit" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>						
+						<li><a href="mailto:joeywpettit@gmail.com" class="icon solid fa-envelope" target="_blank"><span class="label">Email</span></a></li>
 						
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Copyright 2022</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>

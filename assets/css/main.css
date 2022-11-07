@@ -2051,7 +2051,8 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
+			box-shadow: 2px 2px 10px #1f1815;
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2593,7 +2594,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: rgba(12, 11, 11);
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
@@ -3220,4 +3221,10 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+	}
+
+	.centered-btns{
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
